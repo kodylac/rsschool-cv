@@ -1,4 +1,4 @@
- **rs_school**
+ ## rs_school
 # Ilya Sych
 ### Contacts
 * Location: Gdansk, Poland
@@ -12,7 +12,7 @@
 ### Code examples
 ``` alert("Hello world"```)
 ### Education
-* Brest State Technical University
+* Brest State Technical University - 
     Automation engineer
 * Udemy 
     HTML/CSS
