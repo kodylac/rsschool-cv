@@ -1,4 +1,4 @@
-## rs_school
+## **rs_school**
 # Ilya Sych
 ### Contacts
 * Location: Gdansk, Poland
@@ -16,5 +16,9 @@
     Automation engineer
 * Udemy 
     HTML/CSS
-* LearntJavaScript
+* Learn JavaScript
+### Languages
+* Russian (Native)
+* English (B2)
+* Polish (A1)
 
