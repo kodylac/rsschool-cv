@@ -1,4 +1,3 @@
- ## rs_school
 # Ilya Sych
 ### Contacts
 * Location: Gdansk, Poland
