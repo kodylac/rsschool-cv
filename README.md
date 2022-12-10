@@ -1,1 +1,1 @@
-https://kodylac.github.io/rsschool-cv/cv
+https://kodylac.github.io/rsschool-cv/
