@@ -1,4 +1,72 @@
+ 
+ 
+
+ *{
+    margin-left: 50px;
+    
+ }
+
  .head {
-    text-decoration: underline;
-    text-decoration-color: red;
+    border-bottom: 2px solid rgb(236, 222, 222);
+    font-style: italic;
+    font-size: l50px;
+ }
+
+ .name {
+    border-bottom: 2px solid rgb(236, 222, 222);
+    font-style: italic;
+ }
+
+ .contacts {
+    border-bottom: 2px solid rgb(236, 222, 222);
+    font-style: italic;
+ }
+
+ .contacts_info {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+ }
+
+ .skills{
+    border-bottom: 2px solid rgb(236, 222, 222);
+    font-style: italic;
+ }
+ .skills_info {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+ }
+
+ .code {
+    border-bottom: 2px solid rgb(236, 222, 222);
+    font-style: italic;
+ }
+
+ .world {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+ }
+
+ .education {
+    border-bottom: 2px solid rgb(236, 222, 222);
+    font-style: italic;
+ }
+
+ .education_info {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+ }
+
+ .languages {
+    border-bottom: 2px solid rgb(236, 222, 222);
+    font-style: italic;
+ }
+
+ .languages_info {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
  }
