@@ -2,14 +2,20 @@
  
 
  *{
-    margin-left: 50px;
+    /* margin-left: 50px; */
     
+ }
+
+ .img {
+    float: left;
+    margin: 50px 50px 25px 0px; 
  }
 
  .head {
     border-bottom: 2px solid rgb(236, 222, 222);
     font-style: italic;
     font-size: l50px;
+   
  }
 
  .name {
@@ -52,21 +58,26 @@
  .education {
     border-bottom: 2px solid rgb(236, 222, 222);
     font-style: italic;
+    
+    
  }
 
  .education_info {
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
+    margin-left: 480px;
  }
 
  .languages {
     border-bottom: 2px solid rgb(236, 222, 222);
     font-style: italic;
+    margin-left: 520px;
  }
 
  .languages_info {
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
+    margin-left: 480px;
  }
