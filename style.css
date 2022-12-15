@@ -1,80 +1,41 @@
- 
- 
 
- 
+body {
+  font-family: 'Roboto',sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+}
 
- .img {
-    float: left;
-    margin: 50px 50px 25px 0px; 
- }
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
 
- .head {
-    border-bottom: 2px solid rgb(236, 222, 222);
-    font-style: italic;
-    font-size: l50px;
-   
- }
+.menu {
+  color: white;
+  height: 50px;
+  background-color:grey;
+  }
 
- .name {
-    border-bottom: 2px solid rgb(236, 222, 222);
-    font-style: italic;
- }
+.nav-list {
+  display: flex;
+  justify-content:center;
+  list-style: none;
+  }
 
- .contacts {
-    border-bottom: 2px solid rgb(236, 222, 222);
-    font-style: italic;
- }
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  color: white;
+  text-decoration: none;
+}
 
- .contacts_info {
-    font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
- }
+.main {
+  background-color: azure;
+}
+img {
 
- .skills{
-    border-bottom: 2px solid rgb(236, 222, 222);
-    font-style: italic;
- }
- .skills_info {
-    font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
- }
-
- .code {
-    border-bottom: 2px solid rgb(236, 222, 222);
-    font-style: italic;
- }
-
- .world {
-    font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
- }
-
- .education {
-    border-bottom: 2px solid rgb(236, 222, 222);
-    font-style: italic;
-    
-    
- }
-
- .education_info {
-    font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    margin-left: 480px;
- }
-
- .languages {
-    border-bottom: 2px solid rgb(236, 222, 222);
-    font-style: italic;
-    margin-left: 520px;
- }
-
- .languages_info {
-    font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    margin-left: 480px;
- }
+    border-radius: 20%;
+    margin: 20px;
+}
