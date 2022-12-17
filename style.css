@@ -1,41 +1,105 @@
-
-body {
-  font-family: 'Roboto',sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 1.5;
-}
-
 * {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
 }
 
-.menu {
+body {
+  background-color: bisque;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: white;
+  margin-top: 20px;
+  height: 1000px;
+}
+
+.container_2 {
+  width: 300px;
+  background-color: grey;
+  height: 1000px;
+}
+
+.photo .my_photo {
+  display: block;
+  margin-left: 20px;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+
+.contact {
+  height: 250px;
+
+}
+
+ .contact .my_contact{
+  padding: 20px;
+  margin-left: 20px;
   color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.line {
+  border-bottom: 5px solid white;
+  width: 250px;
+  display: block;
+  margin: 0 auto;
+}
+
+.dis {
   height: 50px;
-  background-color:grey;
-  }
+}
 
-.nav-list {
-  display: flex;
-  justify-content:center;
-  list-style: none;
-  }
+.dis .discord {
+  padding: 20px;
+  margin-left: 15px;
+}
 
-.nav-link {
-  padding: 0 20px;
-  line-height: 50px;
+.discord .dis_login {
+  margin: 300px;
+}
+
+ .dis_login{
+  padding-top: 30px;
   color: white;
-  text-decoration: none;
+  font-size: 20px;
 }
 
-.main {
-  background-color: azure;
+.phone {
+  height: 50px;
+  position: absolute;
 }
-img {
 
-    border-radius: 20%;
-    margin: 20px;
+.phone .phone_pic {
+  padding-top: 20px;
+  margin-left:35px;
+}
+
+.phone_number {
+  color:white;
+  font-size: 20px;
+  margin-left: 100px;
+  padding-top: 35px;
+}
+
+.skills {
+  display: block;
+  padding: 0 auto;
+
+}
+.my_skills {
+  color:white;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 40px;
+}
+
+.line_1 {
+  border-bottom: 5px solid white;
+  width: 250px;
+  display: block;
+  margin: 0 auto;
 }
