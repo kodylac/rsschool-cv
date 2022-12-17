@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: bisque;
+  background-color: rgb(74, 74, 145);
 }
 
 .container {
@@ -14,12 +14,21 @@ body {
   background-color: white;
   margin-top: 20px;
   height: 1000px;
+  display: block;
+  border: 1px solid black;
 }
 
 .container_2 {
   width: 300px;
-  background-color: grey;
+  background-color: rgb(77, 75, 75);
   height: 1000px;
+
+}
+
+.container_3 {
+  width: 700px;
+  padding-top: 400px;
+
 }
 
 .photo .my_photo {
@@ -47,6 +56,7 @@ body {
   width: 250px;
   display: block;
   margin: 0 auto;
+
 }
 
 .dis {
@@ -86,7 +96,7 @@ body {
 }
 
 .skills {
-  display: block;
+
   padding: 0 auto;
 
 }
@@ -102,4 +112,114 @@ body {
   width: 250px;
   display: block;
   margin: 0 auto;
+  padding-top: 20px;
+}
+
+.list {
+color:white;
+font-size: 20px;
+font-weight: bold;
+padding-top: 20px;
+margin-left: 45px;
+}
+
+
+.about {
+  display: block;
+}
+
+.logo {
+  padding-top: 40px;
+  margin-left: 60px;
+}
+
+
+.me {
+position: absolute;
+width: 700px;
+left: 605px;
+height: 1200px;
+}
+
+.name {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.job {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.line_4 {
+  border-bottom: 5px solid black;
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.education {
+font-size: 20px;
+font-weight: bold;
+padding-top: 20px;
+}
+
+.state {
+font-size: 20px;
+font-weight: bold;
+padding-top: 20px;
+}
+
+.date {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.deg {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.line_5 {
+  border-bottom: 5px solid black;
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.code {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.js {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.line_6 {
+  border-bottom: 5px solid black;
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.info {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.text {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 20px;
 }
