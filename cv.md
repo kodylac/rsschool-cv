@@ -11,13 +11,12 @@
 ### Code examples
 ``` alert("Hello world"```)
 ### Education
-* Brest State Technical University - 
+* Brest State Technical University -
     Automation engineer
-* Udemy 
+* Udemy
     HTML/CSS
 * Learn JavaScript
 ### Languages
 * Russian (Native)
 * English (B2)
 * Polish (A1)
-

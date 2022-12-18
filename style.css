@@ -1,80 +1,249 @@
- 
- 
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
 
- 
+body {
+  background-color: rgb(74, 74, 145);
 
- .img {
-    float: left;
-    margin: 50px 50px 25px 0px; 
- }
 
- .head {
-    border-bottom: 2px solid rgb(236, 222, 222);
-    font-style: italic;
-    font-size: l50px;
-   
- }
+}
 
- .name {
-    border-bottom: 2px solid rgb(236, 222, 222);
-    font-style: italic;
- }
 
- .contacts {
-    border-bottom: 2px solid rgb(236, 222, 222);
-    font-style: italic;
- }
 
- .contacts_info {
-    font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
- }
 
- .skills{
-    border-bottom: 2px solid rgb(236, 222, 222);
-    font-style: italic;
- }
- .skills_info {
-    font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
- }
 
- .code {
-    border-bottom: 2px solid rgb(236, 222, 222);
-    font-style: italic;
- }
 
- .world {
-    font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
- }
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: white;
+  margin-top: 20px;
+  height: 1000px;
+  display: block;
+  border: 1px solid black;
 
- .education {
-    border-bottom: 2px solid rgb(236, 222, 222);
-    font-style: italic;
-    
-    
- }
+}
 
- .education_info {
-    font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    margin-left: 480px;
- }
+.container_2 {
+  width: 300px;
+  background-color: rgb(77, 75, 75);
+  height: 1000px;
 
- .languages {
-    border-bottom: 2px solid rgb(236, 222, 222);
-    font-style: italic;
-    margin-left: 520px;
- }
+}
 
- .languages_info {
-    font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    margin-left: 480px;
- }
+.container_3 {
+  width: 700px;
+  padding-top: 400px;
+
+}
+
+.photo .my_photo {
+  display: block;
+  margin-left: 20px;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+
+.contact {
+  height: 250px;
+  padding-top: 20px;
+
+}
+
+ .contact .my_contact{
+  padding: 20px;
+  margin-left: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.line {
+  border-bottom: 5px solid white;
+  width: 250px;
+  display: block;
+  padding-top: 20px;
+  margin: 0 auto;
+
+}
+
+.discord {
+  padding-top: 20px;
+  padding-left:20px;
+  margin-left: 5px;
+  display: block;
+}
+
+.phone_pic {
+  padding-right: 20px;
+  display: block;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.dis_login {
+ display: block;
+ text-align: center;
+ color: white;
+ margin-top: -40px;
+}
+
+.phone_number {
+  display: block;
+  text-align: center;
+  color: white;
+  margin-top: -35px;
+}
+
+.rs {
+  display: block;
+  padding-top: 50px;
+  margin-left: 50px;
+
+
+}
+
+
+.skills {
+
+  padding: 0 auto;
+
+}
+.my_skills {
+  color:white;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 40px;
+}
+
+.line_1 {
+  border-bottom: 5px solid white;
+  width: 250px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.list {
+color:white;
+font-size: 20px;
+font-weight: bold;
+padding-top: 20px;
+margin-left: 45px;
+}
+
+
+.about {
+  display: block;
+}
+
+.logo {
+  padding-top: 40px;
+  margin-left: 60px;
+}
+
+
+.me {
+position: absolute;
+width: 700px;
+left: 750px;
+height: 1200px;
+text-align: center;
+
+}
+
+.name {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.job {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.line_4 {
+  border-bottom: 5px solid black;
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.education {
+font-size: 20px;
+font-weight: bold;
+padding-top: 20px;
+}
+
+.state {
+font-size: 20px;
+font-weight: bold;
+padding-top: 20px;
+}
+
+.date {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.deg {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.line_5 {
+  border-bottom: 5px solid black;
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.code {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.js {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.line_6 {
+  border-bottom: 5px solid black;
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.info {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.text {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+footer {
+  background-color: white;
+  width: 1000px;
+  margin-left: 451px;
+}
+
+.year {
+
+  padding-left: 750px;
+}
