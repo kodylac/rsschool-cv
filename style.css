@@ -10,32 +10,129 @@ body {
 
 }
 
-
-
-
-
-
 .container {
-  width: 1000px;
+  width: 1200px;
+  height: 900px;
   margin: 0 auto;
   background-color: white;
   margin-top: 20px;
-  height: 1000px;
-  display: block;
   border: 1px solid black;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    width:750px;
+    height: 800px;
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container_2 {
+    width:667px;
+    height: 800px;
+    font-size: 10px;
+  }
+}
+
+
+
+@media screen and (max-width: 767px) {
+  .my_photo {
+    width:150px;
+    height: 200px;
+
+  }
+}
+
+@media screen and (max-width: 767px) {
+  footer {
+    width:50px;
+    height: 250px;
+
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .my_contact {
+    width:100px;
+    height: 100px;
+
+
+
+
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .dis_login{
+    width:50px;
+    height: 50px;
+    position: absolute;
+    margin-left: 60px;
+    padding-top: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .discord{
+    width:50px;
+    height: 50px;
+
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .phone_pic{
+
+    width: 60px;
+    padding-top: 20px;
+
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .dis {
+    width:20px;
+    height: 50px;
+
+  }
+  }
+
+  @media screen and (max-width: 767px) {
+    .dis_login {
+      width:50px;
+      height: 50px;
+
+    }
+    }
+    @media screen and (max-width: 767px) {
+      .phone_number{
+        padding-bottom: 15px;
+        padding-left: 40px;
+      }
+      }
+
+.me {
+
+position: absolute;
+top: 10%;
+left: 40%;
+padding-top: 50px;
 
 }
 
 .container_2 {
-  width: 300px;
+  width: 25%;
   background-color: rgb(77, 75, 75);
-  height: 1000px;
+  height: 100%;
 
 }
 
 .container_3 {
-  width: 700px;
-  padding-top: 400px;
+ width: 75%;
+margin-left: 25%;
+text-align: center;
 
 }
 
@@ -97,15 +194,6 @@ body {
   margin-top: -35px;
 }
 
-.rs {
-  display: block;
-  padding-top: 50px;
-  margin-left: 50px;
-
-
-}
-
-
 .skills {
 
   padding: 0 auto;
@@ -115,6 +203,7 @@ body {
   color:white;
   font-size: 30px;
   font-weight: bold;
+  margin-top: 40px;
   margin-left: 40px;
 }
 
@@ -145,19 +234,6 @@ margin-left: 45px;
 }
 
 
-.me {
-position: absolute;
-width: 700px;
-left: 750px;
-height: 1200px;
-text-align: center;
-
-}
-
-.name {
-  text-align: center;
-  margin-top: 50px;
-}
 
 .job {
   font-size: 20px;
@@ -167,10 +243,8 @@ text-align: center;
 
 .line_4 {
   border-bottom: 5px solid black;
-  width: 500px;
-  display: block;
-  margin: 0 auto;
   padding-top: 20px;
+  width: 50%;
 }
 
 .education {
@@ -179,11 +253,7 @@ font-weight: bold;
 padding-top: 20px;
 }
 
-.state {
-font-size: 20px;
-font-weight: bold;
-padding-top: 20px;
-}
+
 
 .date {
   font-size: 20px;
@@ -239,11 +309,30 @@ padding-top: 20px;
 
 footer {
   background-color: white;
-  width: 1000px;
-  margin-left: 451px;
+  width: 100%;
+  border: 1px solid black;
 }
 
 .year {
 
-  padding-left: 750px;
+float: right;
+}
+
+.rs {
+
+  padding-left: 500px;
+  }
+
+  .about_me {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 20px;
+  }
+
+.dis {
+  font-size: 20px;
+}
+
+.phone_number {
+  font-size: 20px;
 }
