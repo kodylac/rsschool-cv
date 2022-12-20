@@ -1,0 +1,338 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgb(74, 74, 145);
+
+
+}
+
+.container {
+  width: 1200px;
+  height: 900px;
+  margin: 0 auto;
+  background-color: white;
+  margin-top: 20px;
+  border: 1px solid black;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    width:750px;
+    height: 800px;
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container_2 {
+    width:667px;
+    height: 800px;
+    font-size: 10px;
+  }
+}
+
+
+
+@media screen and (max-width: 767px) {
+  .my_photo {
+    width:150px;
+    height: 200px;
+
+  }
+}
+
+@media screen and (max-width: 767px) {
+  footer {
+    width:50px;
+    height: 250px;
+
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .my_contact {
+    width:100px;
+    height: 100px;
+
+
+
+
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .dis_login{
+    width:50px;
+    height: 50px;
+    position: absolute;
+    margin-left: 60px;
+    padding-top: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .discord{
+    width:50px;
+    height: 50px;
+
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .phone_pic{
+
+    width: 60px;
+    padding-top: 20px;
+
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .dis {
+    width:20px;
+    height: 50px;
+
+  }
+  }
+
+  @media screen and (max-width: 767px) {
+    .dis_login {
+      width:50px;
+      height: 50px;
+
+    }
+    }
+    @media screen and (max-width: 767px) {
+      .phone_number{
+        padding-bottom: 15px;
+        padding-left: 40px;
+      }
+      }
+
+.me {
+
+position: absolute;
+top: 10%;
+left: 40%;
+padding-top: 50px;
+
+}
+
+.container_2 {
+  width: 25%;
+  background-color: rgb(77, 75, 75);
+  height: 100%;
+
+}
+
+.container_3 {
+ width: 75%;
+margin-left: 25%;
+text-align: center;
+
+}
+
+.photo .my_photo {
+  display: block;
+  margin-left: 20px;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+
+.contact {
+  height: 250px;
+  padding-top: 20px;
+
+}
+
+ .contact .my_contact{
+  padding: 20px;
+  margin-left: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.line {
+  border-bottom: 5px solid white;
+  width: 250px;
+  display: block;
+  padding-top: 20px;
+  margin: 0 auto;
+
+}
+
+.discord {
+  padding-top: 20px;
+  padding-left:20px;
+  margin-left: 5px;
+  display: block;
+}
+
+.phone_pic {
+  padding-right: 20px;
+  display: block;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.dis_login {
+ display: block;
+ text-align: center;
+ color: white;
+ margin-top: -40px;
+}
+
+.phone_number {
+  display: block;
+  text-align: center;
+  color: white;
+  margin-top: -35px;
+}
+
+.skills {
+
+  padding: 0 auto;
+
+}
+.my_skills {
+  color:white;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.line_1 {
+  border-bottom: 5px solid white;
+  width: 250px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.list {
+color:white;
+font-size: 20px;
+font-weight: bold;
+padding-top: 20px;
+margin-left: 45px;
+}
+
+
+.about {
+  display: block;
+}
+
+.logo {
+  padding-top: 40px;
+  margin-left: 60px;
+}
+
+
+
+.job {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.line_4 {
+  border-bottom: 5px solid black;
+  padding-top: 20px;
+  width: 50%;
+}
+
+.education {
+font-size: 20px;
+font-weight: bold;
+padding-top: 20px;
+}
+
+
+
+.date {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.deg {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.line_5 {
+  border-bottom: 5px solid black;
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.code {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.js {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.line_6 {
+  border-bottom: 5px solid black;
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.info {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.text {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+footer {
+  background-color: white;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.year {
+
+float: right;
+}
+
+.rs {
+
+  padding-left: 500px;
+  }
+
+  .about_me {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 20px;
+  }
+
+.dis {
+  font-size: 20px;
+}
+
+.phone_number {
+  font-size: 20px;
+}
